@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net452;net46</TargetFrameworks>
+    <LangVersion>preview</LangVersion>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
+    <AssemblyName>TerWoord.CSharp8Support</AssemblyName>
+    <RootNamespace>TerWoord.CSharp8Support</RootNamespace>
+    <Version>0.1-preview</Version>
+    <Authors>Matthijs ter Woord</Authors>
+    <Description>C# 8 support for .NET. (Improvements, including documentation, are welcome)</Description>
+    <RepositoryUrl>https://github.com/mterwoord/csharp-8-support</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/mterwoord/csharp-8-support</PackageProjectUrl>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Copyright>The MIT License (MIT)</Copyright>
+    <PackageLicenseExpression></PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Net.Compilers" Version="3.0.0-beta4-final" />
+    <PackageReference Include="System.Runtime" Version="4.3.1" />
+    <PackageReference Include="System.Runtime.CompilerServices.Unsafe" Version="4.5.2" />
+    <PackageReference Include="System.Runtime.Extensions" Version="4.3.1" />
+    <PackageReference Include="System.Threading.Tasks" Version="4.3.0" />
+  </ItemGroup>
+</Project>
