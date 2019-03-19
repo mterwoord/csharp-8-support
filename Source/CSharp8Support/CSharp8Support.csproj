@@ -13,8 +13,10 @@
     <RepositoryUrl>https://github.com/mterwoord/csharp-8-support</RepositoryUrl>
     <PackageProjectUrl>https://github.com/mterwoord/csharp-8-support</PackageProjectUrl>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Copyright>The MIT License (MIT)</Copyright>
+    <Copyright></Copyright>
     <PackageLicenseExpression></PackageLicenseExpression>
+    <PackageReleaseNotes>Initial release, be lucky and things might work.</PackageReleaseNotes>
+    <PackageLicenseFile>license.txt</PackageLicenseFile>
   </PropertyGroup>
 
   <ItemGroup>
@@ -23,5 +25,12 @@
     <PackageReference Include="System.Runtime.CompilerServices.Unsafe" Version="4.5.2" />
     <PackageReference Include="System.Runtime.Extensions" Version="4.3.1" />
     <PackageReference Include="System.Threading.Tasks" Version="4.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\license.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 </Project>
