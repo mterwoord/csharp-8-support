@@ -6,6 +6,10 @@ namespace System
 {
     internal static class ThrowHelper
     {
+        internal static void ThrowValueArgumentOutOfRange_NeedNonNegNumException()
+        {
+            ThrowArgumentOutOfRangeException(ExceptionArgument.value, ExceptionResource.ArgumentOutOfRange_NeedNonNegNum);
+        }
         internal static void ThrowArgumentOutOfRangeException()
         {
             ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument.index, ExceptionResource.ArgumentOutOfRange_Index);
